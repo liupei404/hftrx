@@ -41,7 +41,7 @@
 		{
 			if (isr & USART_ISR_RXNE_RXFNE)
 			{
-				const uint_fast8_t c = UART2->RDR;
+				const uint_fast8_t c = USART2->RDR;
 				HARDWARE_UART2_ONRXCHAR(c);
 			}
 			if (isr & USART_ISR_ORE)

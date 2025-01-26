@@ -1,5 +1,5 @@
 #if LINUX_SUBSYSTEM
-	/* No Vivado headers used */
+	/* 未使用 Vivado 标头 */
 
 #elif defined(XC7Z010) && WITHPS7BOARD_ZM10
 	#include "lib/zynq/src_7010_zm/xparameters.h"
